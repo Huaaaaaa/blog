@@ -1,0 +1,55 @@
+#validatebox-tip{
+	position:absolute;
+	width:160px;
+	height:auto;
+	z-index:9900000;
+	display:none;
+}
+.validatebox-tip-content{
+	display:inline-block;
+	position:absolute;
+	top:0px;
+	left:10px;
+	line-height:normal;
+	padding:3px 5px;
+	border:1px solid #CC9933;
+	background:#FFFFCC;
+	z-index:9900001;
+	font-size:12px;
+}
+.validatebox-tip-pointer{
+	background:url('images/validatebox_pointer.gif') no-repeat left top;
+	display:inline-block;
+	width:10px;
+	height:16px;
+	position:absolute;
+	left:1px;
+	top:0px;
+	z-index:9900002;
+}
+.validatebox-invalid{
+	background-image:url('images/validatebox_warning.png');
+	background-position: right 1px;
+	background-repeat:no-repeat ;
+	background-color:#fff;
+	border:1px #eee inset;
+	border:1px #eee solid\9;
+	box-shadow:none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	height:16px;
+	height:16px\9;
+}
+.errorico {
+	width:16px;
+	height:16px;
+	line-height:18px;
+	vertical-align:middle;
+	display:inline-block;
+	background-image:url('images/exclamation.png');
+	background-repeat:no-repeat ;
+	cursor:pointer;
+}
+.errorico { *
+	_display:inline; *
+}

@@ -1,0 +1,103 @@
+@charset "utf-8";
+.strength_meter {
+	display:none;
+	clear:both;
+}
+.button_strength {
+	text-decoration: none;
+	color: #FFF;
+	font-size: 13px;
+}
+.testHide {
+	text-indent:-9999em;
+}
+.strength_meter ul {
+	margin-left:0;
+	overflow:visible;
+	zoom:1;
+	margin-left:120px;
+	width:220px;
+	height: 7px;
+	z-index:-1;
+	border-radius:2px;
+	background:url(images/split_16.png) repeat-x;
+	border:1px solid #ccc!important;
+}
+.strength_meter ul li {
+	display:none;
+	width:54px;
+	height:22px;
+	line-height:22px;
+	margin-right:1px!important;
+	float:left;
+	text-align:center;
+}
+.strength_meter ul li.strong {
+	width:55px;
+	margin-right:0px!important;
+}
+.strength_meter div p {
+	padding-top:12px;
+	font-size:13px;
+}
+.veryweak {
+	background:url(images/split_03.png) repeat-x;
+}
+.weak {
+	background:url(images/split_05.png) repeat-x;
+}
+.medium {
+	background:url(images/split_07.png) repeat-x;
+}
+.strong {
+	background:url(images/split_09.png) repeat-x;
+}
+.percent {
+	display: block;
+	color: #fff;
+	font-size: 12px;
+	margin-left: 5px;
+	height: auto;
+	position: absolute;
+	top: 2px;
+}
+.triangle_right {
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 7.5px 10px 7.5px 0;
+	border-color: transparent rgba(255, 255, 255, .3) transparent transparent;
+	display:block;
+	position: absolute;
+	left: -10px;
+	top: 10px;
+}
+.triangle_left {
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 7.5px 0 7.5px 10px;
+	border-color: transparent transparent transparent rgba(255, 255, 255, .3);
+	display:block;
+	position: absolute;
+	right: -10px;
+	top: 10px;
+}
+.tooltip p {
+	color:white;
+	margin-bottom:10px;
+	font-size: 14px;
+}
+.percentagebarinner {
+	width: 0%;
+	background: #FFF;
+	height: 20px;
+	background:#6EA5E1;
+	position: relative;
+}
+.percentagebar {
+	width:100%;
+	position:relative;
+	background: #FFF;
+	height:20px;
+}

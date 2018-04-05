@@ -1,0 +1,32 @@
+@CHARSET "UTF-8";
+.blog_btn{
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-bottom: 10px;
+}
+
+/* .blog_list{
+	margin-top: 30px;
+	margin-left: 10px;
+}
+
+.write_blog{
+	width: 100%;
+	float: left;
+	margin-left: 10px;
+	margin-top:50px;
+	padding-left: 15px;
+} */
+
+.content .type_btn .blog_type{
+	float: left;
+}
+
+#content{
+	margin-left: 10px;
+}
+
+#write_blog{
+	margin-left: 20px;
+}
+

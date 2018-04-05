@@ -1,0 +1,121 @@
+@CHARSET "UTF-8";
+
+.form {
+	margin-top: 300px;
+}
+
+.row {
+	margin-right: -280px;
+}
+
+.btn {
+	margin-right: 13px;
+}
+
+.work {
+	margin-top: 200px;
+}
+
+.home {
+	font-style: normal;
+	font-family: "华文行楷";
+	font-size: 50px;
+	margin-right: 460px;
+	color: #CC9999;
+}
+
+.container-fluid {
+	margin-bottom: 20px;
+}
+
+.footer {
+	margin-top: 250px;
+	text-align: center;
+	margin-left: auto;
+	color: black;
+}
+
+.i1 {
+	margin-bottom: 5px;
+}
+
+.i2 {
+	width: 100%;
+	height: 100%;
+	margin-top: -5px;
+}
+
+.i3{
+	width: 100%;
+}
+
+.ileft {
+	background-color: #CCCCCC;
+}
+
+#head {
+	background-color: #000000;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+}
+
+.modal {
+	top: 200px;
+}
+
+.modal-body>span {
+	display: inline;
+	margin-left: 50px;
+	font-size: large;
+	line-height: 20px;
+	width: 900px;
+	height: 100px;
+}
+
+.modal-content {
+	background-color: #CCCCFF;
+}
+
+.modal-footer {
+	height: 60px;
+}
+
+#lmenu{
+	float: none;
+}
+
+.write_blog{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+.edit_blog{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+.note-popover .popover-content .dropdown-menu, .card-header.note-toolbar .dropdown-menu {
+    min-width: 160px;
+}
+
+blockquote{
+	padding: 0px 0px;
+}
+
+pre{
+	padding: 5px;
+}
+
+p {
+    margin: 6px;
+}
+
+#language_type{
+    margin-left: 15px;
+    margin-top: 5px;
+}

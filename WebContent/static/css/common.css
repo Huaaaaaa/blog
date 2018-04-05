@@ -1,0 +1,30 @@
+@CHARSET "UTF-8";
+
+.modal {
+	top: 200px;
+}
+
+#alertModal .alert-dialog {
+	width: 300px;
+	position: absolute;
+	left: 40%;
+	top: 15%;
+}
+
+#alertModal .modal-title {
+	text-align: center;
+}
+#alertModal .modal-header {
+	background-color: #99CCCC;
+	padding: 5px;
+}
+#alertModal p.center{
+	color:#FF6666;
+}
+#alertModal .modal-footer {
+	padding: 5px;
+}
+
+#alertModal .modal-body>p {
+	text-align: center;
+}

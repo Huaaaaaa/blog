@@ -1,0 +1,56 @@
+@CHARSET "UTF-8";
+
+/* .uinfo{
+	width: 250px;
+	height: 150px;
+	display:block;
+	float:left;
+	margin-top:10px;
+	margin-left:20px;
+	padding-top:20px;
+	background-color: #E0EEE0;
+	-moz-border-radius: 20px;      
+    -webkit-border-radius: 20px;   
+    border-radius:20px;        
+} */
+body{
+	background-color: #CCCCCC;
+}
+div.uinfo {
+	margin-top: 10px;
+	margin-left: 20px;
+	padding-top: 20px;
+}
+
+.uinfo ul {
+	list-style-type: none;
+}
+
+.uinfo ul li {
+	line-height: 25px;
+}
+
+div.uinfo .feature_pic {
+	float: left;
+	margin-right: 2px;
+}
+
+div.uinfo .fans_info {
+	float: left;
+	margin-left: -10px
+}
+
+.datepicker {
+	margin-top: 20px;
+}
+
+.care {
+	float: left;
+	margin-left: 28px;
+	margin-top: 8px
+}
+
+#date1 .datetimepicker{
+	margin-left: 30px;
+	margin-top: 30px;
+}

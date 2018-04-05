@@ -1,0 +1,152 @@
+@CHARSET "UTF-8";
+/* 基本信息配置 */
+
+body{
+	background-image: url("../images/danya.jpg");
+}
+.list-group-item:first-child{
+	background-image: url("../images/danya.jpg");
+	color: #4baffa;
+	font-style: italic;
+	font-size: large;
+	font-weight: 5px;
+}
+div.containers{
+	margin-top: 20px;
+	margin-left:-150px;
+}
+
+label.gender{
+	width:24px;
+	height:24px;
+	margin-top:5px;
+}
+label.label_man{
+	background-image: url("../images/man.png");
+}
+
+label.label_woman{
+	margin-left:10px;
+	background-image: url("../images/woman.png");
+}
+div.tab-content span.radio-span {
+    width: 24px;
+    height: 24px;
+    margin-left: 5px;
+}
+
+input[type="radio"]{
+	margin-left: 5px;
+}
+
+option{
+	width: 200px;
+}
+
+/* 个人信息配置开始 */
+div.container1{
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+/* 头像配置开始 */
+div.container2{
+	margin-top: 100px;
+	margin-left: -110px;
+}
+
+.strength_user_password {
+	width: 500px;
+	display: none;
+}
+
+
+.veryweak {
+	background: url(../images/split_03.png) repeat-x;
+}
+
+.weak {
+	background: url(../images/split_05.png) repeat-x;
+}
+
+.medium {
+	background: url(../images/split_07.png) repeat-x;
+}
+
+.strong {
+	background: url(../images/split_09.png) repeat-x;
+}
+
+#strength_user_password ul {
+	margin-left: 150px;
+	width: 503px;
+}
+
+#strength_user_password ul li.veryweak {
+	margin-left: -40px;
+	width: 125.75px;
+}
+#strength_user_password ul li.weak {
+	width: 125.75px;
+}
+#strength_user_password ul li.medium {
+	width: 125.75px;
+}
+
+#strength_user_password ul li.strong {
+	width: 125px;
+}
+
+.strength_user_password ul {
+	overflow: visible;
+	zoom: 1;
+	margin-left: 130px;
+	width: 320px;
+	height: 7px;
+	z-index: -1;
+	border-radius: 2px;
+	background: url("../images/split_16.png") repeat-x;
+	border: 0px solid #ccc !important;
+	list-style: none;
+}
+
+.strength_user_password ul li {
+	height: 22px;
+	line-height: 30px;
+	display: inline-block;
+	margin-left: -4px;
+	text-align: center;
+	color: #333;
+	font-size: 12px;
+	text-align: center;
+	color: #333;
+	font-size: 12px;
+	width: 67px;
+}
+
+.figure {
+	border-radius: 10px;
+}
+
+.ge_pic_icon_Infor {
+	margin-right: 10px;
+	float: left;
+}
+
+.selectFile {
+	float: left;
+	margin-top: 70px;
+}
+
+.saveBtn {
+	float: none;
+	margin-left: 275px;
+}
+
+#userInfoNav >li >a:hover{
+	background-color: #81c8fc;
+}
+
+#userInfoNav >li >a:active{
+	background-color:#07aff8;
+}
